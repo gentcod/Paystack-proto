@@ -10,8 +10,6 @@ export const ButtonContainer = styled.div`
    text-align: center;
    margin: auto 0;
 
-
-
    & span {
       font-size: 1.4rem;
       font-weight: 500;
@@ -28,10 +26,6 @@ export const ButtonOuterContainer = styled.div`
 
    &:hover {
       transform: scale(108%);
-   }
-
-   &:hover > ${ButtonContainer} {
-      background-color: transparent;
    }
 
    &:active {
