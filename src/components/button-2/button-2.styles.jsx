@@ -1,6 +1,24 @@
 import {ReactComponent as Icon} from '../../assets/right-arrow-svgrepo-com.svg';
 import styled from "styled-components";
 
+export const ButtonContainer = styled.div`
+   display: flex;
+   padding: 1rem 2rem;
+   height: 100%;
+   width: 100%;
+   background-color: #000;
+   text-align: center;
+   margin: auto 0;
+
+
+
+   & span {
+      font-size: 1.4rem;
+      font-weight: 500;
+      margin: auto 0;
+   } 
+`;
+
 export const ButtonOuterContainer = styled.div`
    padding-bottom: .1rem;
    background-image: linear-gradient(to right, rgb(255, 133, 205), #a855ff, #222);
@@ -12,25 +30,13 @@ export const ButtonOuterContainer = styled.div`
       transform: scale(108%);
    }
 
+   &:hover > ${ButtonContainer} {
+      background-color: transparent;
+   }
+
    &:active {
       transform: translateY(.6rem);
    }
-`;
-   
-export const ButtonContainer = styled.div`
-   display: flex;
-   padding: 1rem 2rem;
-   height: 100%;
-   width: 100%;
-   background-color: #000;
-   text-align: center;
-   margin: auto 0;
-
-   & span {
-      font-size: 1.4rem;
-      font-weight: 500;
-      margin: auto 0;
-   } 
 `;
 
 export const ArrowIcon = styled(Icon)`

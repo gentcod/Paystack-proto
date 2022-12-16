@@ -44,6 +44,7 @@ export const HomeButtonsContainer = styled.div`
 export const HomeSponsorsContainer = styled.div`
    display: flex;
    justify-content: space-between;
+   gap: 5rem;
 `;
 
 export const SponsorLogo = styled.img`
