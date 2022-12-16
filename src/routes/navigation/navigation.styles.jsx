@@ -21,6 +21,11 @@ export const NavigationLink = styled(Link)`
    font-size: 1.2rem;
    font-weight: 700;
    color: #797979;
+   transition: .3s;
+
+   &:hover {
+      color: #fff;
+   }
 `;
 
 export const NavigationLinkActive = styled(NavigationLink)`

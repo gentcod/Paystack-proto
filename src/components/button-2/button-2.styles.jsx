@@ -2,11 +2,11 @@ import {ReactComponent as Icon} from '../../assets/right-arrow-svgrepo-com.svg';
 import styled from "styled-components";
 
 export const ButtonOuterContainer = styled.div`
-   padding: .1rem;
+   padding-bottom: .1rem;
    background-image: linear-gradient(to right, rgb(255, 133, 205), #a855ff, #222);
-   border-radius: 1rem;
    cursor: pointer;
    transition: .7s ease;
+   backface-visibility: hidden;
 
    &:hover {
       transform: scale(108%);
@@ -21,8 +21,8 @@ export const ButtonContainer = styled.div`
    display: flex;
    padding: 1rem 2rem;
    height: 100%;
+   width: 100%;
    background-color: #000;
-   border-radius: .9rem;
    text-align: center;
    margin: auto 0;
 
