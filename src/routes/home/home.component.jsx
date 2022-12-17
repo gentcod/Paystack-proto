@@ -25,7 +25,7 @@ const Home = () => {
             <HomeHeading>{data.heading}</HomeHeading>
             <HomeDesc>{data.description}</HomeDesc>
             <HomeButtonsContainer>
-               <Button text={'Get your terminal'}/>
+               <Button text={'Get your terminal'} height='6rem' width='21rem'/>
                <Button2 text={'Contact sales'}/>
             </HomeButtonsContainer>
             <HomeSponsorsContainer>

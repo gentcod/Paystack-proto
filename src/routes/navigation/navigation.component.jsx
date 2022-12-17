@@ -17,7 +17,7 @@ const Navigation = () => {
                <NavigationLink>Pricing</NavigationLink>
                <NavigationLink>FAQ</NavigationLink>
             </NavigationLinksContainer>
-            <Button text={'Get your terminal'}/>
+            <Button text={'Get your terminal'} height='4rem' width='19.5rem'/>
          </NavigationContainer>
          <Outlet/>
       </>

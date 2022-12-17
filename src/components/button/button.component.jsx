@@ -1,8 +1,8 @@
 import {ButtonOuterContainer, ButtonContainer, ArrowIcon } from "./button.styles";
 
-const Button = ({text}) => {
+const Button = ({text, height, width}) => {
    return (
-      <ButtonOuterContainer>
+      <ButtonOuterContainer height={height} width={width}>
          <ButtonContainer>
             <span>{text}</span>
             <ArrowIcon/>

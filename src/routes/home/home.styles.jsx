@@ -22,14 +22,16 @@ export const HomeRightSide = styled.div`
 `;
 
 export const HomeHeading = styled.h1`
-   font-size: 5rem;
+   font-family: 'Inter', sans-serif;
+   font-size: 4.8rem;
    font-weight: 1000;
    text-align: left;
    margin-top: 5rem;
 `;
 
 export const HomeDesc = styled.p`
-   font-size: 2rem;
+   font-family: 'Inter', sans-serif;
+   font-size: 1.6rem;
    text-align: left;
    width: 90%;
 `;
